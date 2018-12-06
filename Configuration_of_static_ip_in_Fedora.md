@@ -48,13 +48,13 @@ TYPE=Ethernet
 PROXY_METHOD=none
 BROWSER_ONLY=no
 ############################
-BOOTPROTO=static								# 原本为dhcp，改为static或none
+BOOTPROTO=static				# 原本为dhcp，改为static或none
 MACADDR=xx : xx : xx : xx : xx : xx		# MAC地址
-IPADDR=172.18.xxx.xxx						# IP地址
-NETMASK=255.255.254.0					# 子网掩码
-GATEWAY=172.xxx.xxx.xxx					# 网关
-DNS1=10.xxx.xxx.xxx							# DNS
-DNS2=10.xxx.xxx.xxx							# DNS
+IPADDR=172.18.xxx.xxx				# IP地址
+NETMASK=255.255.254.0				# 子网掩码
+GATEWAY=172.xxx.xxx.xxx				# 网关
+DNS1=10.xxx.xxx.xxx				# DNS
+DNS2=10.xxx.xxx.xxx				# DNS
 # NM_CONTROLLED=yes/no
 ############################
 DEFROUTE=yes
