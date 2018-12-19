@@ -31,7 +31,7 @@ WantedBy=default.target
 ### 3.创建服务
 执行命令：
 > systemctl daemon-reload
-systemctl enable [Your-Service].service
+> systemctl enable [Your-Service].service
 
 会显示：
 ```
