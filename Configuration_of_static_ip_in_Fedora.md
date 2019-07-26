@@ -65,7 +65,9 @@ IPV6_DEFROUTE=yes
 IPV6_FAILURE_FATAL=no
 IPV6_ADDR_GEN_MODE=stable-privacy
 NAME=eno1
-UUID=14136b1e-008b-3c0d-ab29-9bde4b1c23d5
+############################
+UUID=********-****-****-****-************       # 生成方式（命令行输入）：uuidgen [网卡编号]
+############################
 ONBOOT=yes
 AUTOCONNECT_PRIORITY=-999
 DEVICE=eno1
